@@ -326,7 +326,7 @@
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-10">
           <h2 class="text-3xl font-bold text-white mb-2">{{ $t('footer.title') }}</h2>
-          <p class="text-amber-200">{{ $t('footer.subtitle') }} 👆</p>
+          <p class="text-amber-200">{{ $t('footer.subtitle') }} </p>
         </div>
         
         <div class="grid md:grid-cols-3 gap-6 mb-10">
@@ -337,7 +337,7 @@
             <p class="text-amber-200 text-sm mb-1">{{ $t('footer.email') }}</p>
             <p class="font-semibold">lowxuan0218@gmail.com</p>
           </a>
-          <a href="https://wa.me/6588974632?text=Hello%20Zheng%20Xuan%2C%20I%20would%20like%20to%20ask..." target="_blank" class="bg-white/10 rounded-xl p-6 text-center hover:bg-white/20 transition-colors">
+          <a href="https://wa.me/6588974632" target="_blank" class="bg-white/10 rounded-xl p-6 text-center hover:bg-white/20 transition-colors">
             <div class="w-12 h-12 bg-[#8B4513] rounded-full flex items-center justify-center mx-auto mb-3">
               <i class="fa-brands fa-whatsapp text-xl text-white"></i>
             </div>
@@ -400,7 +400,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, computed } from 'vue'
+import { ref, onMounted, onUnmounted} from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import review1 from '@/assets/review1.png'
@@ -409,7 +409,7 @@ import review3 from '@/assets/review3.png'
 import review4 from '@/assets/review4.png'
 import review5 from '@/assets/review5.png'
 
-const { locale, t } = useI18n()
+const { locale } = useI18n()
 const isMenuOpen = ref(false)
 const activeCategory = ref(0)
 const activeSubCategory = ref(0)
@@ -438,7 +438,6 @@ const updateActiveSection = () => {
     const element = document.getElementById(section.id)
     if (element) {
       const top = element.offsetTop
-      const height = element.offsetHeight
       if (scrollPos >= top - 50) {
         current = idx
       }
