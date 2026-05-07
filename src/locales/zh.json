@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "关于",
+    "skills": "技能",
+    "experience": "经验",
+    "workshops": "工作坊",
+    "contact": "联系",
+    "resume": "下载简历"
+  },
+  "sections": {
+    "about": "关于",
+    "skills": "技能",
+    "experience": "经验",
+    "workshops": "工作坊",
+    "reviews": "反馈",
+    "contact": "联系"
+  },
+  "hero": {
+    "badge": "教育部注册讲师",
+    "title": "你好，我是",
+    "name": "正轩",
+    "subtitle": "目前正在攻读教育科技硕士。持有软件工程学士学位。我帮助学生理解不仅是<strong>如何</strong>编程，更是<strong>为什么</strong>这样编程。",
+    "exploreSkills": "探索技能",
+    "getInTouch": "联系我",
+    "trustedBy": "130+位家长和学生信任"
+  },
+  "stats": {
+    "students": "学生数",
+    "champion": "冠军团队",
+    "workshops": "工作坊",
+    "studentsTooltip": "🇸🇬 100名新加坡学生<br>🇲🇾 30名马来西亚学生",
+    "championTooltip": "1× 总冠军奖<br>2× 最佳编程奖<br>1× 最佳团队奖"
+  },
+  "skills": {
+    "title": "教学内容",
+    "subtitle": "点击类别查看",
+    "robotics": "机器人",
+    "roboticsSub": "硬件与物理计算",
+    "programming": "编程",
+    "programmingSub": "软件开发",
+    "game3d": "游戏与3D",
+    "game3dSub": "创意设计工具",
+    "blocks": "图形编程",
+    "code": "代码编程"
+  },
+  "programming": {
+    "blocks": "图形编程",
+    "code": "代码编程"
+  },
+  "coaching": {
+    "title": "指导经验"
+  },
+  "experience": {
+    "title": "教学经验",
+    "current": "现在",
+    "past": "兼职经验",
+    "empire": {
+      "role": "编程与机器人导师",
+      "company": "Empire AI，新加坡",
+      "period": "2025年7月 — 至今",
+      "desc": "全职导师，提供编程和机器人课程，融合人工智能。教授6-14岁学生各种编程语言和机器人基础知识。"
+    },
+    "gummy": {
+      "role": "机器人导师",
+      "company": "Gummy Code - Kulai",
+      "period": "2023年6月 — 2025年6月",
+      "tasks": [
+        "教授Scratch、Python和乐高机器人给30多名学生",
+        "指导3名学生从零基础到毕业，历时2年",
+        "带领团队获得总冠军和最佳编程奖",
+        "用英语、华语和马来语授课"
+      ]
+    }
+  },
+  "workshops": {
+    "title": "教育部工作坊",
+    "subtitle": "教育部认可"
+  },
+  "reviews": {
+    "title": "家长反馈"
+  },
+  "footer": {
+    "title": "联系我们",
+    "subtitle": "有任何疑问，欢迎联系我。",
+    "email": "邮箱",
+    "whatsapp": "WhatsApp",
+    "location": "地点",
+    "copyright": "新加坡"
+  }
+}

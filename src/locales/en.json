@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "workshops": "Workshops",
+    "contact": "Contact",
+    "resume": "Download Resume"
+  },
+  "sections": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "workshops": "Workshops",
+    "reviews": "Feedback",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "MoE Registered Instructor",
+    "title": "Hello, I'm",
+    "name": "Zheng Xuan",
+    "subtitle": "Currently pursuing Master's in Educational Technology. Holds Bachelor's of Software Engineering. I help students understand not just <strong>how</strong> to code, but <strong>why</strong> it works.",
+    "exploreSkills": "Explore Skills",
+    "getInTouch": "Get in Touch",
+    "trustedBy": "Trusted by 130+ parents & students"
+  },
+  "stats": {
+    "students": "Students Mentored",
+    "champion": "Champion Teams",
+    "workshops": "MoE Workshops",
+    "studentsTooltip": "🇸🇬 100 Singapore students<br>🇲🇾 30 Malaysia students",
+    "championTooltip": "1× Overall Champion Award<br>2× Best Coding Award<br>1× Best Teamwork Award"
+  },
+  "skills": {
+    "title": "What I Teach",
+    "subtitle": "Click a category to explore",
+    "robotics": "Robotics",
+    "roboticsSub": "Hardware & Physical Computing",
+    "programming": "Programming",
+    "programmingSub": "Software Development",
+    "game3d": "Game & 3D",
+    "game3dSub": "Creative Design Tools",
+    "blocks": "Blocks",
+    "code": "Code"
+  },
+  "programming": {
+    "blocks": "Blocks",
+    "code": "Code"
+  },
+  "coaching": {
+    "title": "Coaching Experience"
+  },
+  "experience": {
+    "title": "Teaching Experience",
+    "current": "Current",
+    "past": "Past",
+    "empire": {
+      "role": "Coding & Robotics Trainer",
+      "company": "Empire AI, Singapore",
+      "period": "July 2025 — Present",
+      "desc": "Full-time trainer delivering coding and robotics programs with AI integration. Teaching students aged 6-14 various programming languages and robotics fundamentals."
+    },
+    "gummy": {
+      "role": "Robotics Trainer",
+      "company": "Gummy Code - Kulai",
+      "period": "June 2023 — June 2025",
+      "tasks": [
+        "Taught Scratch, Python and LEGO robotics to over 30 students",
+        "Guided 3 students from beginner to graduation over 2 years",
+        "Coached teams that won Overall Champion and Best Coding Awards",
+        "Conducted lessons in English, Mandarin, and Malay"
+      ]
+    }
+  },
+  "workshops": {
+    "title": "MoE Workshops",
+    "subtitle": "Ministry of Education Recognised"
+  },
+  "reviews": {
+    "title": "Parent Feedback"
+  },
+  "footer": {
+    "title": "Let's Connect",
+    "subtitle": "Have questions? Get in touch!",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "location": "Location",
+    "copyright": "Singapore"
+  }
+}
