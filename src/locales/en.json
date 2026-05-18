@@ -12,6 +12,7 @@
     "skills": "Skills",
     "experience": "Experience",
     "workshops": "Workshops",
+    "outcomes": "Outcomes",
     "reviews": "Feedback",
     "contact": "Contact"
   },
@@ -19,7 +20,7 @@
     "badge": "MoE Registered Instructor",
     "title": "Hello, I'm",
     "name": "Zheng Xuan",
-    "subtitle": "Currently pursuing Master's in Educational Technology. Holds Bachelor's of Software Engineering. I help students understand not just <strong>how</strong> to code, but <strong>why</strong> it works.",
+    "subtitle": "Master's in Educational Technology • Bachelor's in Software Engineering <br> MoE Registered Instructor helping 130+ students aged 4–16 build strong computational thinking, creativity, and confidence through coding, robotics, and AI.",
     "exploreSkills": "Explore Skills",
     "getInTouch": "Get in Touch",
     "trustedBy": "Trusted by 130+ parents & students"
@@ -28,6 +29,8 @@
     "students": "Students Mentored",
     "champion": "Champion Teams",
     "workshops": "MoE Workshops",
+    "retention": "6+ Month Learners",
+    "retentionTooltip": "95% of students continue learning beyond 6 months",
     "studentsTooltip": "🇸🇬 100 Singapore students<br>🇲🇾 30 Malaysia students",
     "championTooltip": "1× Overall Champion Award<br>2× Best Coding Award<br>1× Best Teamwork Award"
   },
@@ -58,7 +61,7 @@
       "role": "Coding & Robotics Trainer",
       "company": "Empire AI, Singapore",
       "period": "July 2025 — Present",
-      "desc": "Full-time trainer delivering coding and robotics programs with AI integration. Teaching students aged 6-14 various programming languages and robotics fundamentals."
+      "desc": "Full-time trainer delivering coding and robotics programs with AI integration. Teaching students aged 6-16 various programming languages and robotics fundamentals."
     },
     "gummy": {
       "role": "Robotics Trainer",
@@ -72,12 +75,50 @@
       ]
     }
   },
-  "workshops": {
+"workshops": {
     "title": "MoE Workshops",
-    "subtitle": "Ministry of Education Recognised"
+    "subtitle": "Ministry of Education Recognised",
+    "workshop1": {
+      "title": "PictoBlox with AI",
+      "school": "Anglo-Chinese School (Junior)",
+      "desc": "Block-based coding with AI, facial & speech recognition."
+    },
+    "workshop2": {
+      "title": "Google Slides & Canva",
+      "school": "Greenwood Primary School",
+      "desc": "Creating engaging presentations with design tools."
+    },
+    "workshop3": {
+      "title": "Minecraft Education",
+      "school": "Anderson Primary School",
+      "desc": "Designing sustainable eco-spaces in Ang Mo Kio."
+    }
   },
   "reviews": {
-    "title": "Parent Feedback"
+    "title": "Parent & Student Voices"
+  },
+  "outcomes": {
+    "title": "Learning Journeys & Outcomes",
+    "subtitle": "Real growth stories from students I have taught",
+    "result": "Key Outcomes",
+    "case1": {
+      "title": "From Reluctant to Confident Coder",
+      "desc": "An 8-year-old who was initially afraid of computers and refused to try coding gradually became engaged through block-based programming and storytelling projects.",
+      "result1": "Completed his first interactive story project independently",
+      "result2": "Gained confidence and continued learning for over 8 months"
+    },
+    "case2": {
+      "title": "Building First Robot from Scratch",
+      "desc": "Guided a group of 12–13-year-olds with no prior competition experience to build and program their first LEGO robot from scratch.",
+      "result1": "Built and programmed their robot, and practiced presentation skills",
+      "result2": "Developed problem-solving skills and an engineering mindset, and achieved Overall Champio"
+    },
+    "case3": {
+      "title": "Understanding AI Responsibly",
+      "desc": "Introduced AI concepts to 9–12 year olds using age-appropriate tools, focusing on both creative applications and ethical considerations.",
+      "result1": "Students could explain basic AI concepts in their own words",
+      "result2": "Developed critical thinking about technology's impact on society"
+    }
   },
   "footer": {
     "title": "Let's Connect",

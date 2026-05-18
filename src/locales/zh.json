@@ -12,6 +12,7 @@
     "skills": "技能",
     "experience": "经验",
     "workshops": "工作坊",
+    "outcomes": "成果",
     "reviews": "反馈",
     "contact": "联系"
   },
@@ -19,7 +20,7 @@
     "badge": "教育部注册讲师",
     "title": "你好，我是",
     "name": "正轩",
-    "subtitle": "目前正在攻读教育科技硕士。持有软件工程学士学位。我帮助学生理解不仅是<strong>如何</strong>编程，更是<strong>为什么</strong>这样编程。",
+    "subtitle": "教育科技碩士 • 軟體工程學士 <br> MoE 註冊講師｜幫助 130+ 位 4–16 歲學生透過程式設計、機器人與 AI，培養運算思維、創造力與學習自信。",
     "exploreSkills": "探索技能",
     "getInTouch": "联系我",
     "trustedBy": "130+位家长和学生信任"
@@ -27,7 +28,9 @@
   "stats": {
     "students": "学生数",
     "champion": "冠军团队",
-    "workshops": "工作坊",
+    "workshops": "教育部工作坊",
+    "retention": "持续学习6个月以上",
+    "retentionTooltip": "95% 的学生持续学习超过 6 个月",
     "studentsTooltip": "🇸🇬 100名新加坡学生<br>🇲🇾 30名马来西亚学生",
     "championTooltip": "1× 总冠军奖<br>2× 最佳编程奖<br>1× 最佳团队奖"
   },
@@ -58,7 +61,7 @@
       "role": "编程与机器人导师",
       "company": "Empire AI，新加坡",
       "period": "2025年7月 — 至今",
-      "desc": "全职导师，提供编程和机器人课程，融合人工智能。教授6-14岁学生各种编程语言和机器人基础知识。"
+      "desc": "全职导师，提供编程和机器人课程，融合人工智能。教授4-16岁学生各种编程语言和机器人基础知识。"
     },
     "gummy": {
       "role": "机器人导师",
@@ -74,13 +77,51 @@
   },
   "workshops": {
     "title": "教育部工作坊",
-    "subtitle": "教育部认可"
+    "subtitle": "教育部认可",
+    "workshop1": {
+      "title": "PictoBlox 与 AI",
+      "school": "Anglo-Chinese School (Junior)",
+      "desc": "积木式编程结合人工智能，面部与语音识别。"
+    },
+    "workshop2": {
+      "title": "Google Slides 与 Canva",
+      "school": "Greenwood Primary School",
+      "desc": "使用设计工具创建引人入胜的演示文稿。"
+    },
+    "workshop3": {
+      "title": "Minecraft 教育版",
+      "school": "Anderson Primary School ",
+      "desc": "在Ang Mo Kio设计可持续生态空间。"
+    }
   },
   "reviews": {
-    "title": "家长反馈"
+    "title": "来自家长和学生的反馈"
+  },
+  "outcomes": {
+    "title": "学习成果与案例",
+    "subtitle": "来自我教过的学生的真实成长故事",
+    "result": "关键成果",
+    "case1": {
+      "title": "从抗拒到热爱编程",
+      "desc": "一个8岁的孩子最初害怕电脑、不愿意尝试编程，通过图形化编程和故事创作项目逐渐变得投入。",
+      "result1": "独立完成第一个互动故事项目",
+      "result2": "建立信心并持续学习超过8个月"
+    },
+    "case2": {
+      "title": "从零开始打造第一台机器人",
+      "desc": "指导一群12至13岁、没有任何比赛经验的学生，从零开始搭建并编程他们的第一台 LEGO 机器人。",
+      "result1": "成功搭建并完成机器人编程，同时练习展示与演讲技巧",
+      "result2": "培养了解决问题的能力与工程思维，并获得 Overall Champion（总冠军）"
+    },
+    "case3": {
+      "title": "负责任地理解人工智能",
+      "desc": "使用适合年龄的工具向9-12岁的孩子介绍人工智能概念，重点关注创意应用和伦理考量。",
+      "result1": "学生能够用自己的话解释基本的人工智能概念",
+      "result2": "培养了对科技影响力的批判性思维"
+    }
   },
   "footer": {
-    "title": "联系我们",
+    "title": "联系我",
     "subtitle": "有任何疑问，欢迎联系我。",
     "email": "邮箱",
     "whatsapp": "WhatsApp",

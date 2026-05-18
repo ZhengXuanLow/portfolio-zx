@@ -13,6 +13,8 @@
           <a href="#skills" class="hover:text-[#8B4513] transition-colors">{{ $t('nav.skills') }}</a>
           <a href="#experience" class="hover:text-[#8B4513] transition-colors">{{ $t('nav.experience') }}</a>
           <a href="#workshops" class="hover:text-[#8B4513] transition-colors">{{ $t('nav.workshops') }}</a>
+          <a href="#outcomes" class="hover:text-[#8B4513] transition-colors">{{ $t('sections.outcomes') }}</a>
+          <a href="#reviews" class="hover:text-[#8B4513] transition-colors">{{ $t('sections.reviews') }}</a>
           <a href="#contact" class="hover:text-[#8B4513] transition-colors">{{ $t('nav.contact') }}</a>
         </div>
 
@@ -39,6 +41,7 @@
           <a href="#skills" @click="isMenuOpen = false">{{ $t('nav.skills') }}</a>
           <a href="#experience" @click="isMenuOpen = false">{{ $t('nav.experience') }}</a>
           <a href="#workshops" @click="isMenuOpen = false">{{ $t('nav.workshops') }}</a>
+          <a href="#outcomes" @click="isMenuOpen = false">{{ $t('sections.outcomes') }}</a>
           <a href="#contact" @click="isMenuOpen = false">{{ $t('nav.contact') }}</a>
           <button @click="toggleLanguage; isMenuOpen = false" class="text-left px-3 py-2 rounded-lg" :class="locale === 'en' ? 'bg-[#8B4513] text-white' : 'bg-amber-100 text-[#8B4513]'">
             <i class="fa-solid fa-globe mr-2"></i>{{ locale === 'en' ? 'English' : '中文' }}
@@ -95,26 +98,31 @@
     <!-- Stats Bar -->
     <section class="px-6 -mt-10 mb-16">
       <div class="max-w-4xl mx-auto">
-        <div class="bg-white rounded-2xl shadow-xl p-8 grid grid-cols-3 gap-8 text-center">
-<div class="p-4 group cursor-default relative">
-            <div class="text-4xl font-bold text-[#8B4513]">130+</div>
-            <div class="text-sm text-[#6B5B4F] mt-1">{{ $t('stats.students') }}</div>
-            <!-- Hover Tooltip -->
+        <div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 text-center">
+          <div class="p-3 sm:p-4 group cursor-default relative">
+            <div class="text-3xl sm:text-4xl font-bold text-[#8B4513]">130+</div>
+            <div class="text-xs sm:text-sm text-[#6B5B4F] mt-1">{{ $t('stats.students') }}</div>
             <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-[#3D2B1F] text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
               <div v-html="$t('stats.studentsTooltip')"></div>
             </div>
           </div>
-          <div class="p-4 border-x border-amber-100 group cursor-default relative">
-            <div class="text-4xl font-bold text-[#8B4513]">4×</div>
-            <div class="text-sm text-[#6B5B4F] mt-1">{{ $t('stats.champion') }}</div>
-            <!-- Hover Tooltip -->
+          <div class="p-3 sm:p-4 sm:border-x border-amber-100 group cursor-default relative">
+            <div class="text-3xl sm:text-4xl font-bold text-[#8B4513]">4×</div>
+            <div class="text-xs sm:text-sm text-[#6B5B4F] mt-1">{{ $t('stats.champion') }}</div>
             <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-[#3D2B1F] text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
               <div v-html="$t('stats.championTooltip')"></div>
             </div>
           </div>
-          <div class="p-4">
-            <div class="text-4xl font-bold text-[#8B4513]">5</div>
-            <div class="text-sm text-[#6B5B4F] mt-1">{{ $t('stats.workshops') }}</div>
+          <div class="p-3 sm:p-4 sm:border-x border-amber-100 group cursor-default relative">
+            <div class="text-3xl sm:text-4xl font-bold text-[#8B4513]">5</div>
+            <div class="text-xs sm:text-sm text-[#6B5B4F] mt-1">{{ $t('stats.workshops') }}</div>
+          </div>
+          <div class="p-3 sm:p-4 sm:border-x border-amber-100 group cursor-default relative">
+            <div class="text-3xl sm:text-4xl font-bold text-[#8B4513]">95%</div>
+            <div class="text-xs sm:text-sm text-[#6B5B4F] mt-1">{{ $t('stats.retention') }}</div>
+            <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-[#3D2B1F] text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+              <div v-html="$t('stats.retentionTooltip')"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -276,19 +284,19 @@
               <span class="px-3 py-1 bg-[#8B4513]/10 text-[#8B4513] text-sm font-semibold rounded-full">2026</span>
               <i class="fa-solid fa-robot text-amber-300 text-xl"></i>
             </div>
-            <h3 class="text-lg font-bold text-[#3D2B1F] mb-2">PictoBlox with AI</h3>
-            <p class="text-sm text-[#8B4513] mb-2">Anglo-Chinese School (Junior)</p>
-            <p class="text-sm text-[#6B5B4F]">Block-based coding with AI, facial & speech recognition.</p>
+            <h3 class="text-lg font-bold text-[#3D2B1F] mb-2">{{ $t('workshops.workshop1.title') }}</h3>
+            <p class="text-sm text-[#8B4513] mb-2">{{ $t('workshops.workshop1.school') }}</p>
+            <p class="text-sm text-[#6B5B4F]">{{ $t('workshops.workshop1.desc') }}</p>
           </div>
 
           <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all border border-amber-100">
             <div class="flex items-center justify-between mb-4">
-              <span class="px-3 py-1 bg-amber-100 text-amber-600 text-sm font-semibold rounded-full">2025</span>
+              <span class="px-3 py-1 bg-[#8B4513]/10 text-[#8B4513] text-sm font-semibold rounded-full">2026</span>
               <i class="fa-solid fa-palette text-amber-300 text-xl"></i>
             </div>
-            <h3 class="text-lg font-bold text-[#3D2B1F] mb-2">Google Slides & Canva</h3>
-            <p class="text-sm text-[#8B4513] mb-2">Greenwood Primary School</p>
-            <p class="text-sm text-[#6B5B4F]">Creating engaging presentations with design tools.</p>
+            <h3 class="text-lg font-bold text-[#3D2B1F] mb-2">{{ $t('workshops.workshop2.title') }}</h3>
+            <p class="text-sm text-[#8B4513] mb-2">{{ $t('workshops.workshop2.school') }}</p>
+            <p class="text-sm text-[#6B5B4F]">{{ $t('workshops.workshop2.desc') }}</p>
           </div>
 
           <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all border border-amber-100">
@@ -296,15 +304,74 @@
               <span class="px-3 py-1 bg-amber-100 text-amber-600 text-sm font-semibold rounded-full">2025</span>
               <i class="fa-solid fa-cubes text-amber-300 text-xl"></i>
             </div>
-            <h3 class="text-lg font-bold text-[#3D2B1F] mb-2">Minecraft Education</h3>
-            <p class="text-sm text-[#8B4513] mb-2">Anderson Primary School</p>
-            <p class="text-sm text-[#6B5B4F]">Designing sustainable eco-spaces in Ang Mo Kio.</p>
+            <h3 class="text-lg font-bold text-[#3D2B1F] mb-2">{{ $t('workshops.workshop3.title') }}</h3>
+            <p class="text-sm text-[#8B4513] mb-2">{{ $t('workshops.workshop3.school') }}</p>
+            <p class="text-sm text-[#6B5B4F]">{{ $t('workshops.workshop3.desc') }}</p>
           </div>
         </div>
       </div>
     </section>
 
-<!-- Reviews -->
+    <!-- Teaching Cases & Outcomes -->
+    <section id="outcomes" class="py-20 px-6 bg-[#F5F0E6]">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl font-bold text-[#3D2B1F] mb-3">{{ $t('outcomes.title') }}</h2>
+          <p class="text-[#6B5B4F] max-w-2xl mx-auto">{{ $t('outcomes.subtitle') }}</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <div class="bg-white rounded-2xl p-8 border border-amber-100 hover:shadow-xl transition-all">
+            <div class="text-4xl mb-4">👦</div>
+            <div class="text-sm uppercase tracking-widest text-[#8B4513] font-medium mb-1">Age 8 • Beginner</div>
+            <h3 class="text-xl font-bold text-[#3D2B1F] mb-3">{{ $t('outcomes.case1.title') }}</h3>
+            <p class="text-[#5D4E37] leading-relaxed">{{ $t('outcomes.case1.desc') }}</p>
+            <div class="mt-6 pt-6 border-t border-amber-200">
+              <div class="text-[#8B4513] text-sm font-medium">{{ $t('outcomes.result') }}</div>
+              <ul class="mt-3 space-y-2 text-sm text-[#5D4E37]">
+                <li class="flex items-start gap-2"><span class="text-green-600 mt-1">→</span> {{ $t('outcomes.case1.result1') }}</li>
+                <li class="flex items-start gap-2"><span class="text-green-600 mt-1">→</span> {{ $t('outcomes.case1.result2') }}</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 border border-amber-100 hover:shadow-xl transition-all">
+            <div class="text-4xl mb-4">🤖</div>
+            <div class="text-sm uppercase tracking-widest text-[#8B4513] font-medium mb-1">Age 12–13 • Robotics</div>
+            <h3 class="text-xl font-bold text-[#3D2B1F] mb-3">{{ $t('outcomes.case2.title') }}</h3>
+            <p class="text-[#5D4E37] leading-relaxed">{{ $t('outcomes.case2.desc') }}</p>
+            <div class="mt-6 pt-6 border-t border-amber-200">
+              <div class="text-[#8B4513] text-sm font-medium">{{ $t('outcomes.result') }}</div>
+              <ul class="mt-3 space-y-2 text-sm text-[#5D4E37]">
+                <li class="flex items-start gap-2"><span class="text-green-600 mt-1">→</span> {{ $t('outcomes.case2.result1') }}</li>
+                <li class="flex items-start gap-2"><span class="text-green-600 mt-1">→</span> {{ $t('outcomes.case2.result2') }}</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 border border-amber-100 hover:shadow-xl transition-all">
+            <div class="text-4xl mb-4">🧠</div>
+            <div class="text-sm uppercase tracking-widest text-[#8B4513] font-medium mb-1">Age 9–12 • AI Introduction</div>
+            <h3 class="text-xl font-bold text-[#3D2B1F] mb-3">{{ $t('outcomes.case3.title') }}</h3>
+            <p class="text-[#5D4E37] leading-relaxed">{{ $t('outcomes.case3.desc') }}</p>
+            <div class="mt-6 pt-6 border-t border-amber-200">
+              <div class="text-[#8B4513] text-sm font-medium">{{ $t('outcomes.result') }}</div>
+              <ul class="mt-3 space-y-2 text-sm text-[#5D4E37]">
+                <li class="flex items-start gap-2"><span class="text-green-600 mt-1">→</span> {{ $t('outcomes.case3.result1') }}</li>
+                <li class="flex items-start gap-2"><span class="text-green-600 mt-1">→</span> {{ $t('outcomes.case3.result2') }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-12 text-sm text-[#6B5B4F]">
+          * All cases are anonymised to protect student privacy.
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
     <section id="reviews" class="py-20 px-6 bg-white">
       <div class="max-w-6xl mx-auto">
         <h2 class="text-4xl font-bold text-center text-[#3D2B1F] mb-12">{{ $t('reviews.title') }}</h2>
@@ -374,8 +441,8 @@
     </div>
 
     <!-- Section Navigation (Right Middle) -->
-    <div class="fixed right-6 top-1/2 -translate-y-1/2 z-40">
-      <div class="flex flex-col gap-3 bg-white/90 backdrop-blur-sm p-3 rounded-xl shadow-lg border border-amber-100">
+    <div class="fixed right-6 top-1/2 -translate-y-1/2 z-40 hidden md:block" :class="(isScrolling || isHovering) ? 'opacity-100' : 'opacity-0 pointer-events-none'" style="transition: opacity 0.3s ease;">
+      <div @mouseenter="isHovering = true" @mouseleave="isHovering = false" class="flex flex-col gap-3 bg-white/90 backdrop-blur-sm p-3 rounded-xl shadow-lg border border-amber-100">
         <a v-for="(section, idx) in sections" :key="section.id"
            :href="`#${section.id}`"
            class="group relative flex items-center justify-center"
@@ -415,17 +482,19 @@ const activeCategory = ref(0)
 const activeSubCategory = ref(0)
 const selectedImage = ref('')
 const activeSection = ref(0)
+const isScrolling = ref(false)
+const isHovering = ref(false)
+let scrollTimer: number
 
-const reviewImages = [review1, review2, review3, review4, review5]
-
-const sections = [
-  { id: 'about', label: 'About' },
-  { id: 'skills', label: 'Skills' },
-  { id: 'experience', label: 'Experience' },
-  { id: 'workshops', label: 'Workshops' },
-  { id: 'reviews', label: 'Feedback' },
-  { id: 'contact', label: 'Contact' }
-]
+const onScroll = () => {
+  if (!isHovering.value) {
+    isScrolling.value = true
+    clearTimeout(scrollTimer)
+    scrollTimer = setTimeout(() => {
+      isScrolling.value = false
+    }, 1000)
+  }
+}
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -452,11 +521,13 @@ const toggleLanguage = () => {
 
 onMounted(() => {
   window.addEventListener('scroll', updateActiveSection)
+  window.addEventListener('scroll', onScroll)
   updateActiveSection()
 })
 
 onUnmounted(() => {
   window.removeEventListener('scroll', updateActiveSection)
+  window.removeEventListener('scroll', onScroll)
 })
 
 const downloadResume = () => {
@@ -465,6 +536,18 @@ const downloadResume = () => {
   link.download = 'YourName_Resume.pdf'
   link.click()
 }
+
+const reviewImages = [review1, review2, review3, review4, review5]
+
+const sections = [
+  { id: 'about', label: 'About' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'workshops', label: 'Workshops' },
+  { id: 'outcomes', label: 'Outcomes' },
+  { id: 'reviews', label: 'Feedback' },
+  { id: 'contact', label: 'Contact' }
+]
 
 const categories = [
   {
