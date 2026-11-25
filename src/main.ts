@@ -7,11 +7,14 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import en from './locales/en.json'
 import zh from './locales/zh.json'
 
+// Start in Chinese for Chinese-language browsers, English otherwise.
+const prefersZh = navigator.languages?.some((l) => l.toLowerCase().startsWith('zh'))
+
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
+  locale: prefersZh ? 'zh' : 'en',
   fallbackLocale: 'en',
-  messages: { en, zh }
+  messages: { en, zh },
 })
 
 createApp(App).use(i18n).mount('#app')

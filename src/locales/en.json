@@ -1,131 +1,202 @@
 {
-  "nav": {
-    "about": "About",
-    "skills": "Skills",
-    "experience": "Experience",
-    "workshops": "Workshops",
-    "contact": "Contact",
-    "resume": "Download Resume"
+  "meta": {
+    "title": "Zheng Xuan {'|'} Coding educator"
   },
-  "sections": {
-    "about": "About",
-    "skills": "Skills",
+  "nav": {
+    "label": "Main",
+    "menu": "Menu",
+    "teach": "What I teach",
+    "work": "Projects and workshops",
     "experience": "Experience",
-    "workshops": "Workshops",
-    "outcomes": "Outcomes",
     "reviews": "Feedback",
-    "contact": "Contact"
+    "contact": "Contact",
+    "switchLang": "中文",
+    "switchLangLabel": "切换到中文",
+    "cv": "Download CV"
   },
   "hero": {
-    "badge": "MoE Registered Instructor",
-    "title": "Hello, I'm",
-    "name": "Zheng Xuan",
-    "subtitle": "Master's in Educational Technology • Bachelor's in Software Engineering <br> MoE Registered Instructor helping 130+ students aged 4–16 build strong computational thinking, creativity, and confidence through coding, robotics, and AI.",
-    "exploreSkills": "Explore Skills",
-    "getInTouch": "Get in Touch",
-    "trustedBy": "Trusted by 130+ parents & students"
+    "hello": "Hi, I'm Zheng Xuan.",
+    "headline": "Inspiring students to think like engineers.",
+    "lead": "A coding teacher with a software engineering background. I'm an MoE-registered instructor in Singapore and have taught 130+ students aged 4 to 18. I've helped a student get into their chosen school through DSA, and I've run AI workshops for seniors. I'm studying for a Master in Education (Educational Technology), and I teach in English, Mandarin and Malay.",
+    "contact": "Get in touch",
+    "portraitAlt": "Photo of Zheng Xuan",
+    "noteMoe": "MoE-registered instructor",
+    "noteStudents": "130+ students taught"
   },
-  "stats": {
-    "students": "Students Mentored",
-    "champion": "Champion Teams",
-    "workshops": "MoE Workshops",
-    "retention": "6+ Month Learners",
-    "retentionTooltip": "95% of students continue learning beyond 6 months",
-    "studentsTooltip": "🇸🇬 100 Singapore students<br>🇲🇾 30 Malaysia students",
-    "championTooltip": "1× Overall Champion Award<br>2× Best Coding Award<br>1× Best Teamwork Award"
-  },
-  "skills": {
-    "title": "What I Teach",
-    "subtitle": "Click a category to explore",
-    "robotics": "Robotics",
-    "roboticsSub": "Hardware & Physical Computing",
-    "programming": "Programming",
-    "programmingSub": "Software Development",
-    "game3d": "Game & 3D",
-    "game3dSub": "Creative Design Tools",
-    "blocks": "Blocks",
-    "code": "Code"
-  },
-  "programming": {
-    "blocks": "Blocks",
-    "code": "Code"
-  },
-  "coaching": {
-    "title": "Coaching Experience"
-  },
-  "experience": {
-    "title": "Teaching Experience",
-    "current": "Current",
-    "past": "Past",
-    "empire": {
-      "role": "Coding & Robotics Trainer",
-      "company": "Empire AI, Singapore",
-      "period": "July 2025 — Present",
-      "desc": "Full-time trainer delivering coding and robotics programs with AI integration. Teaching students aged 6-16 various programming languages and robotics fundamentals."
-    },
-    "gummy": {
-      "role": "Robotics Trainer",
-      "company": "Gummy Code - Kulai",
-      "period": "June 2023 — June 2025",
-      "tasks": [
-        "Taught Scratch, Python and LEGO robotics to over 30 students",
-        "Guided 3 students from beginner to graduation over 2 years",
-        "Coached teams that won Overall Champion and Best Coding Awards",
-        "Conducted lessons in English, Mandarin, and Malay"
-      ]
+  "teach": {
+    "title": "What I teach",
+    "intro": "The right tools for every age.",
+    "ageAxis": "Student age",
+    "ages": "Ages {from}–{to}",
+    "groups": {
+      "blocks": "Block Coding",
+      "code": "Text Coding",
+      "apps": "Apps and Web",
+      "ai": "AI",
+      "games": "Games and 3D",
+      "robotics": "Robotics"
     }
   },
-"workshops": {
-    "title": "MoE Workshops",
-    "subtitle": "Ministry of Education Recognised",
-    "workshop1": {
-      "title": "PictoBlox with AI",
-      "school": "Anglo-Chinese School (Junior)",
-      "desc": "Block-based coding with AI, facial & speech recognition."
+  "work": {
+    "title": "Projects and workshops",
+    "intro": "Things I've designed, coached and built.",
+    "tools": "Tools",
+    "items": {
+      "pictoblox": {
+        "title": "PictoBlox with AI workshop",
+        "where": "MoE workshop, Anglo-Chinese School (Junior), 2026",
+        "body": "Students used block coding to build small AI projects with face recognition and voice recognition.",
+        "tools": "PictoBlox"
+      },
+      "minecraft": {
+        "title": "Minecraft Education workshop",
+        "where": "MoE workshop, Anderson Primary School, 2025 and 2026",
+        "body": "Students designed sustainable eco-spaces for Ang Mo Kio in Minecraft Education.",
+        "tools": "Minecraft Education"
+      },
+      "competitions": {
+        "title": "Competition coaching",
+        "where": "Public and in-house competitions, 2025 to now",
+        "body": "Public results: FLL Master Coders Award, NRC finalist, HCIC silver, Coding Olympics Category A top 20. I've also coached teams at Global Appathon and Technovation Girls. In in-house competitions, my teams won 1 overall champion, 2 best coding and 1 best teamwork award.",
+        "tools": ""
+      },
+      "sinda": {
+        "title": "SINDA STEM Imprints Robotics and Coding Workshops for Children",
+        "where": "Kampung Siglap / Empire AI, 2026",
+        "body": "A 12-session programme with three tracks by age: KUBO for preschool, micro:bit for lower primary and MIT App Inventor for upper primary. I also helped develop the curriculum.",
+        "tools": "KUBO, micro:bit, MIT App Inventor"
+      },
+      "parents": {
+        "title": "The Singapore My Parent Grew Me In",
+        "where": "Empire AI, 2026",
+        "body": "Children interviewed their parents about growing up in Singapore, then used AI to turn the interview into a comic story.",
+        "tools": "Google Gemini"
+      },
+      "aizaikia": {
+        "title": "Be an AI Zai Kia",
+        "where": "Ningpo Guild House, 2026",
+        "body": "Empowering senior citizens to use everyday AI tools and preserve their personal legacy with Google NotebookLM.",
+        "tools": "Google NotebookLM"
+      },
+      "ooy": {
+        "title": "OOY CIRCLE × DREAMS 2026: Interactive Family-Roots Exhibition Kiosk",
+        "where": "Exhibition project, 2026",
+        "body": "I developed a touchscreen kiosk for the exhibition. Visitors find their surname in a database of 20,000+ entries, see their family's migration path from China to Singapore, and build their family tree in English or Chinese. At the end they print a foldable A4 keepsake that combines the tree and the migration route in one card. The system also has a staff admin portal, QR-code links and a print layout at true A4 size. Visitors can scan a QR code to finish their tree at home on their phone and send it back.",
+        "tools": "Vue, Firebase Firestore",
+        "imageCaption": "A sample of the printed A4 keepsake. The top half folds over to the back.",
+        "imageAlt": "A4 family-roots keepsake generated by the kiosk: migration route on the top half, surname story and family tree on the bottom half"
+      },
+      "dsa": {
+        "title": "DSA Portfolio Mentoring",
+        "where": "Mentoring, Empire AI, 2026",
+        "body": "I guided a student through their DSA (Direct School Admission) application and helped them build their own portfolio, including Python projects and a personal portfolio website. The student was admitted to the School of Science and Technology through DSA.",
+        "tools": "Python, Google Sites"
+      },
+      "birthday": {
+        "title": "Minecraft-Themed Coding Birthday Parties",
+        "where": "Empire AI, 2026",
+        "body": "I planned and hosted Minecraft-themed birthday parties, from teaching the kids to code and keeping the energy up to celebrating the birthday together.",
+        "tools": "Minecraft Education"
+      }
     },
-    "workshop2": {
-      "title": "Google Slides & Canva",
-      "school": "Greenwood Primary School",
-      "desc": "Creating engaging presentations with design tools."
+    "more": "Other MoE workshop: Google Slides and Canva (Greenwood Primary School, 2026).",
+    "enlarge": "Enlarge image"
+  },
+  "experience": {
+    "title": "Experience",
+    "intro": "Work, education and certifications.",
+    "jobs": {
+      "empire": {
+        "role": "Coding and robotics trainer",
+        "org": "Empire AI, Singapore",
+        "period": "July 2025 to now",
+        "points": [
+          "Full-time trainer teaching coding and robotics with AI integration to students of different ages."
+        ]
+      },
+      "gummy": {
+        "role": "Robotics trainer",
+        "org": "Gummy Code, Kulai, Johor",
+        "period": "June 2023 to June 2025",
+        "points": [
+          "Taught Scratch, Python and LEGO robotics to 30+ students.",
+          "Took 3 students from beginner to graduation over two years.",
+          "Taught in English, Mandarin and Malay."
+        ]
+      }
     },
-    "workshop3": {
-      "title": "Minecraft Education",
-      "school": "Anderson Primary School",
-      "desc": "Designing sustainable eco-spaces in Ang Mo Kio."
+    "educationTitle": "Education",
+    "edu": {
+      "master": {
+        "degree": "Master in Education (Educational Technology)",
+        "school": "University of Technology Malaysia",
+        "period": "In progress, expected 2028"
+      },
+      "bachelor": {
+        "degree": "Bachelor of Software Engineering (Honours)",
+        "school": "Southern University College",
+        "period": "Graduated 2025"
+      }
+    },
+    "certsTitle": "Certifications",
+    "certs": {
+      "moe": {
+        "name": "MoE-Registered Instructor",
+        "issuer": "",
+        "year": ""
+      },
+      "codeai": {
+        "name": "Certified CodeAI Facilitator",
+        "issuer": "",
+        "year": ""
+      }
     }
   },
   "reviews": {
-    "title": "Parent & Student Voices"
+    "title": "Feedback",
+    "intro": "Screenshots of what students, parents and partners wrote. Select one to enlarge it.",
+    "open": "Enlarge feedback screenshot {n}",
+    "alt": "Feedback screenshot {n}",
+    "close": "Close"
   },
-  "outcomes": {
-    "title": "Learning Journeys & Outcomes",
-    "subtitle": "Real growth stories from students I have taught",
-    "result": "Key Outcomes",
-    "case1": {
-      "title": "From Reluctant to Confident Coder",
-      "desc": "An 8-year-old who was initially afraid of computers and refused to try coding gradually became engaged through block-based programming and storytelling projects.",
-      "result1": "Completed his first interactive story project independently",
-      "result2": "Gained confidence and continued learning for over 8 months"
-    },
-    "case2": {
-      "title": "Building First Robot from Scratch",
-      "desc": "Guided a group of 12–13-year-olds with no prior competition experience to build and program their first LEGO robot from scratch.",
-      "result1": "Built and programmed their robot, and practiced presentation skills",
-      "result2": "Developed problem-solving skills and an engineering mindset, and achieved Overall Champio"
-    },
-    "case3": {
-      "title": "Understanding AI Responsibly",
-      "desc": "Introduced AI concepts to 9–12 year olds using age-appropriate tools, focusing on both creative applications and ethical considerations.",
-      "result1": "Students could explain basic AI concepts in their own words",
-      "result2": "Developed critical thinking about technology's impact on society"
-    }
-  },
-  "footer": {
-    "title": "Let's Connect",
-    "subtitle": "Have questions? Get in touch!",
+  "contact": {
+    "title": "Contact",
+    "intro": "Reach me by email or on LinkedIn.",
     "email": "Email",
+    "linkedin": "LinkedIn",
     "whatsapp": "WhatsApp",
-    "location": "Location",
-    "copyright": "Singapore"
+    "location": "Singapore"
+  },
+  "philosophy": {
+    "label": "Teaching philosophy",
+    "quote": "Debugging isn't about mistakes. It's how children learn to stay calm and think logically when something doesn't work the first time."
+  },
+  "debug": {
+    "open": "Let's fix a bug together",
+    "title": "Fix the bug",
+    "close": "Close",
+    "task": "This program should draw a square, but it comes out crooked. Find the problem and fix it.",
+    "viewLabel": "Switch how the program is shown",
+    "blocks": "Blocks",
+    "python": "Python",
+    "whenFlag": "when green flag clicked",
+    "repeat": "repeat {n} times",
+    "move": "move {n} steps",
+    "turnBefore": "turn right",
+    "turnAfter": "degrees",
+    "angleLabel": "Degrees to turn each time",
+    "status": "It turned {n} times, {deg} degrees each, {total} degrees in total.",
+    "fixed": "Fixed! 4 × 90 = 360 degrees, so it ends up facing the way it started.",
+    "drawingLabel": "The shape the program draws",
+    "guideTitle": "How I'd guide a student",
+    "hints": [
+      "Don't change anything yet. Look at the drawing: how is it different from a square?",
+      "A square has 4 corners. After the 4 sides, the turtle should be facing the same way it started.",
+      "A full turn is 360 degrees. So how many degrees should each turn be?"
+    ],
+    "hint": "Give me a hint",
+    "moreHint": "Another hint",
+    "reset": "Start over",
+    "lesson": "This is how I teach debugging: no answers handed over, just questions that lead students to observe, reason, then test their idea."
   }
 }

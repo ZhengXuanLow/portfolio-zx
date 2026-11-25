@@ -1,131 +1,202 @@
 {
-  "nav": {
-    "about": "关于",
-    "skills": "技能",
-    "experience": "经验",
-    "workshops": "工作坊",
-    "contact": "联系",
-    "resume": "下载简历"
+  "meta": {
+    "title": "Zheng Xuan {'|'} 编程教育导师"
   },
-  "sections": {
-    "about": "关于",
-    "skills": "技能",
-    "experience": "经验",
-    "workshops": "工作坊",
-    "outcomes": "成果",
+  "nav": {
+    "label": "主导航",
+    "menu": "菜单",
+    "teach": "能教什么",
+    "work": "项目与工作坊",
+    "experience": "经历",
     "reviews": "反馈",
-    "contact": "联系"
+    "contact": "联系",
+    "switchLang": "English",
+    "switchLangLabel": "Switch to English",
+    "cv": "下载简历"
   },
   "hero": {
-    "badge": "教育部注册讲师",
-    "title": "你好，我是",
-    "name": "正轩",
-    "subtitle": "教育科技碩士 • 軟體工程學士 <br> MoE 註冊講師｜幫助 130+ 位 4–16 歲學生透過程式設計、機器人與 AI，培養運算思維、創造力與學習自信。",
-    "exploreSkills": "探索技能",
-    "getInTouch": "联系我",
-    "trustedBy": "130+位家长和学生信任"
+    "hello": "你好，我是正轩。",
+    "headline": "启发学生​像工程师一样思考。",
+    "lead": "软件工程出身的编程老师，现为新加坡 MoE 注册导师，教过 130 多位 4–18 岁的学生，曾成功带领学生通过 DSA 进入心仪的学校，也为乐龄人士开过 AI 工作坊。正在攻读教育硕士（教育科技），能用英语、华语和马来语授课。",
+    "contact": "联系我",
+    "portraitAlt": "Zheng Xuan 的照片",
+    "noteMoe": "MoE 注册导师",
+    "noteStudents": "教过 130+ 位学生"
   },
-  "stats": {
-    "students": "学生数",
-    "champion": "冠军团队",
-    "workshops": "教育部工作坊",
-    "retention": "持续学习6个月以上",
-    "retentionTooltip": "95% 的学生持续学习超过 6 个月",
-    "studentsTooltip": "🇸🇬 100名新加坡学生<br>🇲🇾 30名马来西亚学生",
-    "championTooltip": "1× 总冠军奖<br>2× 最佳编程奖<br>1× 最佳团队奖"
-  },
-  "skills": {
-    "title": "教学内容",
-    "subtitle": "点击类别查看",
-    "robotics": "机器人",
-    "roboticsSub": "硬件与物理计算",
-    "programming": "编程",
-    "programmingSub": "软件开发",
-    "game3d": "游戏与3D",
-    "game3dSub": "创意设计工具",
-    "blocks": "图形编程",
-    "code": "代码编程"
-  },
-  "programming": {
-    "blocks": "图形编程",
-    "code": "代码编程"
-  },
-  "coaching": {
-    "title": "指导经验"
-  },
-  "experience": {
-    "title": "教学经验",
-    "current": "现在",
-    "past": "兼职经验",
-    "empire": {
-      "role": "编程与机器人导师",
-      "company": "Empire AI，新加坡",
-      "period": "2025年7月 — 至今",
-      "desc": "全职导师，提供编程和机器人课程，融合人工智能。教授4-16岁学生各种编程语言和机器人基础知识。"
-    },
-    "gummy": {
-      "role": "机器人导师",
-      "company": "Gummy Code - Kulai",
-      "period": "2023年6月 — 2025年6月",
-      "tasks": [
-        "教授Scratch、Python和乐高机器人给30多名学生",
-        "指导3名学生从零基础到毕业，历时2年",
-        "带领团队获得总冠军和最佳编程奖",
-        "用英语、华语和马来语授课"
-      ]
+  "teach": {
+    "title": "能教什么",
+    "intro": "每个年龄段，都有适合的工具。",
+    "ageAxis": "学生年龄",
+    "ages": "{from}–{to} 岁",
+    "groups": {
+      "blocks": "积木编程",
+      "code": "文本编程",
+      "apps": "App 与网页",
+      "ai": "AI",
+      "games": "游戏与 3D",
+      "robotics": "机器人"
     }
   },
-  "workshops": {
-    "title": "教育部工作坊",
-    "subtitle": "教育部认可",
-    "workshop1": {
-      "title": "PictoBlox 与 AI",
-      "school": "Anglo-Chinese School (Junior)",
-      "desc": "积木式编程结合人工智能，面部与语音识别。"
+  "work": {
+    "title": "项目与工作坊",
+    "intro": "我设计过、带过、做过的事。",
+    "tools": "工具",
+    "items": {
+      "pictoblox": {
+        "title": "PictoBlox 与 AI 工作坊",
+        "where": "MoE 工作坊，Anglo-Chinese School (Junior)，2026",
+        "body": "让学生用积木编程，做出运用人脸识别和语音识别的 AI 小项目。",
+        "tools": "PictoBlox"
+      },
+      "minecraft": {
+        "title": "Minecraft 教育版工作坊",
+        "where": "MoE 工作坊，Anderson Primary School，2025、2026",
+        "body": "学生在 Minecraft 教育版里为宏茂桥设计可持续的生态空间。",
+        "tools": "Minecraft Education"
+      },
+      "competitions": {
+        "title": "比赛带队",
+        "where": "公开赛与机构内部比赛，2025 至今",
+        "body": "公开赛成绩：FLL Master Coders Award、NRC 决赛入围、HCIC 银牌、Coding Olympics A 组前 20 名。也带队参加过 Global Appathon 和 Technovation Girls。机构内部比赛获得总冠军 1 次、最佳编程奖 2 次、最佳团队奖 1 次。",
+        "tools": ""
+      },
+      "sinda": {
+        "title": "SINDA STEM Imprints 儿童机器人与编程工作坊",
+        "where": "Kampung Siglap / Empire AI，2026",
+        "body": "共 12 节课，按年龄分三条路线：学前班用 KUBO，低年级用 micro:bit，高年级用 MIT App Inventor。我也参与了课程开发。",
+        "tools": "KUBO、micro:bit、MIT App Inventor"
+      },
+      "parents": {
+        "title": "The Singapore My Parent Grew Me In",
+        "where": "Empire AI，2026",
+        "body": "孩子采访自己的父母，了解他们在新加坡的童年，再用 AI 把采访内容串成一个漫画故事。",
+        "tools": "Google Gemini"
+      },
+      "aizaikia": {
+        "title": "Be an AI Zai Kia",
+        "where": "Ningpo Guild House，2026",
+        "body": "教乐龄人士使用日常 AI 工具，并用 Google NotebookLM 保存自己的人生故事。",
+        "tools": "Google NotebookLM"
+      },
+      "ooy": {
+        "title": "OOY CIRCLE × DREAMS 2026 互动寻根展览触屏机",
+        "where": "展览项目，2026",
+        "body": "为这个展览开发了一套触屏互动系统。访客用中文或英文，从 20,000 多个姓氏的资料库里找到自己的姓氏，看到家族从中国迁移到新加坡的路线，并建立自己的家谱。最后可以打印一张可折叠的 A4 纪念卡，把家谱和迁移路线放在同一张卡上。系统还包括工作人员后台、二维码链接，以及按真实 A4 尺寸输出的打印版面。访客也可以扫二维码，回家用手机继续编辑家谱，再传回系统。",
+        "tools": "Vue、Firebase Firestore",
+        "imageCaption": "打印出来的 A4 纪念卡样本。对折后，上半部分会翻到背面。",
+        "imageAlt": "系统生成的 A4 家族寻根纪念卡：上半部分是迁移路线，下半部分是姓氏故事和家谱"
+      },
+      "dsa": {
+        "title": "DSA 作品集辅导",
+        "where": "辅导，Empire AI，2026",
+        "body": "指导一位学生准备 DSA（直接收生计划）申请，带他一步步建立自己的作品集，包括 Python 项目和个人作品集网站。学生最后成功获得 School of Science and Technology 的 DSA 录取。",
+        "tools": "Python、Google Sites"
+      },
+      "birthday": {
+        "title": "Minecraft 主题编程生日派对",
+        "where": "Empire AI，2026",
+        "body": "策划并主持以 Minecraft 为主题的生日派对：从带孩子学写代码、带动现场气氛，到最后一起为寿星庆生。",
+        "tools": "Minecraft Education"
+      }
     },
-    "workshop2": {
-      "title": "Google Slides 与 Canva",
-      "school": "Greenwood Primary School",
-      "desc": "使用设计工具创建引人入胜的演示文稿。"
+    "more": "其他 MoE 工作坊：Google Slides 与 Canva（Greenwood Primary School，2026）。",
+    "enlarge": "放大图片"
+  },
+  "experience": {
+    "title": "经历",
+    "intro": "工作、学历与证书。",
+    "jobs": {
+      "empire": {
+        "role": "编程与机器人导师",
+        "org": "Empire AI，新加坡",
+        "period": "2025 年 7 月至今",
+        "points": [
+          "全职导师，为不同年龄的学生教授编程与机器人课程，课程结合 AI。"
+        ]
+      },
+      "gummy": {
+        "role": "机器人导师",
+        "org": "Gummy Code，柔佛古来",
+        "period": "2023 年 6 月至 2025 年 6 月",
+        "points": [
+          "教 30 多位学生 Scratch、Python 和乐高机器人。",
+          "带 3 位学生从零基础学到结业，历时两年。",
+          "用英语、华语和马来语授课。"
+        ]
+      }
     },
-    "workshop3": {
-      "title": "Minecraft 教育版",
-      "school": "Anderson Primary School ",
-      "desc": "在Ang Mo Kio设计可持续生态空间。"
+    "educationTitle": "学历",
+    "edu": {
+      "master": {
+        "degree": "教育硕士（教育科技）",
+        "school": "马来西亚理工大学（University of Technology Malaysia）",
+        "period": "在读，预计 2028 年毕业"
+      },
+      "bachelor": {
+        "degree": "软件工程学士（荣誉）",
+        "school": "南方大学学院（Southern University College）",
+        "period": "2025 年毕业"
+      }
+    },
+    "certsTitle": "证书",
+    "certs": {
+      "moe": {
+        "name": "MoE 注册导师",
+        "issuer": "",
+        "year": ""
+      },
+      "codeai": {
+        "name": "Certified CodeAI Facilitator",
+        "issuer": "",
+        "year": ""
+      }
     }
   },
   "reviews": {
-    "title": "来自家长和学生的反馈"
+    "title": "反馈",
+    "intro": "学生、家长和合作单位的原话截图。点击可放大。",
+    "open": "放大第 {n}张反馈截图",
+    "alt": "反馈截图 {n}",
+    "close": "关闭"
   },
-  "outcomes": {
-    "title": "学习成果与案例",
-    "subtitle": "来自我教过的学生的真实成长故事",
-    "result": "关键成果",
-    "case1": {
-      "title": "从抗拒到热爱编程",
-      "desc": "一个8岁的孩子最初害怕电脑、不愿意尝试编程，通过图形化编程和故事创作项目逐渐变得投入。",
-      "result1": "独立完成第一个互动故事项目",
-      "result2": "建立信心并持续学习超过8个月"
-    },
-    "case2": {
-      "title": "从零开始打造第一台机器人",
-      "desc": "指导一群12至13岁、没有任何比赛经验的学生，从零开始搭建并编程他们的第一台 LEGO 机器人。",
-      "result1": "成功搭建并完成机器人编程，同时练习展示与演讲技巧",
-      "result2": "培养了解决问题的能力与工程思维，并获得 Overall Champion（总冠军）"
-    },
-    "case3": {
-      "title": "负责任地理解人工智能",
-      "desc": "使用适合年龄的工具向9-12岁的孩子介绍人工智能概念，重点关注创意应用和伦理考量。",
-      "result1": "学生能够用自己的话解释基本的人工智能概念",
-      "result2": "培养了对科技影响力的批判性思维"
-    }
-  },
-  "footer": {
+  "contact": {
     "title": "联系我",
-    "subtitle": "有任何疑问，欢迎联系我。",
-    "email": "邮箱",
+    "intro": "欢迎通过邮件或 LinkedIn 联系我。",
+    "email": "邮件",
+    "linkedin": "LinkedIn",
     "whatsapp": "WhatsApp",
-    "location": "地点",
-    "copyright": "新加坡"
+    "location": "新加坡"
+  },
+  "philosophy": {
+    "label": "教学理念",
+    "quote": "调试不是在挑错，而是让孩子学会：事情第一次没成功时，保持冷静，一步步想清楚。"
+  },
+  "debug": {
+    "open": "一起来修个 Bug 吧",
+    "title": "修 Bug 小挑战",
+    "close": "关闭",
+    "task": "这段程序想画一个正方形，可是画歪了。试着找出问题，把它修好。",
+    "viewLabel": "切换程序的显示方式",
+    "blocks": "积木",
+    "python": "Python",
+    "whenFlag": "当绿旗被点击",
+    "repeat": "重复 {n} 次",
+    "move": "移动 {n} 步",
+    "turnBefore": "右转",
+    "turnAfter": "度",
+    "angleLabel": "每次右转的角度",
+    "status": "转了 {n} 次，每次 {deg} 度，一共转了 {total} 度。",
+    "fixed": "修好了！4 × 90 = 360 度，刚好转回原来的方向。",
+    "drawingLabel": "程序画出的图形",
+    "guideTitle": "我会这样引导学生",
+    "hints": [
+      "先别急着改。看看画出来的图形，它和正方形差在哪里？",
+      "正方形有 4 个角。小乌龟走完 4 条边之后，应该刚好面向出发时的方向。",
+      "转一整圈是 360 度。那每次应该转几度呢？"
+    ],
+    "hint": "给我一点提示",
+    "moreHint": "再给一点提示",
+    "reset": "重新开始",
+    "lesson": "这就是我带学生调试的方式：不直接给答案，而是用问题引导他们观察、推理，再动手验证。"
   }
 }
