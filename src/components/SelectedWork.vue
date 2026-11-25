@@ -9,6 +9,14 @@
           <span class="tools-label">{{ t('work.tools') }}</span>
           {{ t(`work.items.${key}.tools`) }}
         </p>
+        <p v-if="workPosts[key]" class="post">
+          <a :href="workPosts[key]" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            {{ t('work.post') }}
+            <span aria-hidden="true">↗</span>
+            <span class="sr-only">({{ t('work.newTab') }})</span>
+          </a>
+        </p>
       </div>
 
       <figure v-if="workImages[key]" class="media">
@@ -46,7 +54,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { workItems, type WorkItem } from '@/data/content'
+import { workItems, workPosts, type WorkItem } from '@/data/content'
 import ooyKeepsake from '@/assets/ooy-keepsake.webp'
 
 const { t, te } = useI18n()
@@ -136,6 +144,19 @@ h3 {
 .tools-label {
   margin-inline-end: 0.5rem;
   color: var(--graphite);
+  font-weight: 500;
+}
+
+.post {
+  margin: 0.6rem 0 0;
+  font-size: 0.875rem;
+}
+
+.post a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-block-size: 24px;
   font-weight: 500;
 }
 

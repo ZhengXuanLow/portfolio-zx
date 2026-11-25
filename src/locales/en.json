@@ -5,8 +5,8 @@
   "nav": {
     "label": "Main",
     "menu": "Menu",
-    "teach": "What I teach",
-    "work": "Projects and workshops",
+    "teach": "What I Teach",
+    "work": "Projects and Workshops",
     "experience": "Experience",
     "reviews": "Feedback",
     "contact": "Contact",
@@ -24,7 +24,7 @@
     "noteStudents": "130+ students taught"
   },
   "teach": {
-    "title": "What I teach",
+    "title": "What I Teach",
     "intro": "The right tools for every age.",
     "ageAxis": "Student age",
     "ages": "Ages {from}–{to}",
@@ -38,24 +38,24 @@
     }
   },
   "work": {
-    "title": "Projects and workshops",
+    "title": "Projects and Workshops",
     "intro": "Things I've designed, coached and built.",
     "tools": "Tools",
     "items": {
       "pictoblox": {
-        "title": "PictoBlox with AI workshop",
+        "title": "PictoBlox with AI Workshop",
         "where": "MoE workshop, Anglo-Chinese School (Junior), 2026",
         "body": "Students used block coding to build small AI projects with face recognition and voice recognition.",
         "tools": "PictoBlox"
       },
       "minecraft": {
-        "title": "Minecraft Education workshop",
+        "title": "Minecraft Education Workshop",
         "where": "MoE workshop, Anderson Primary School, 2025 and 2026",
         "body": "Students designed sustainable eco-spaces for Ang Mo Kio in Minecraft Education.",
         "tools": "Minecraft Education"
       },
       "competitions": {
-        "title": "Competition coaching",
+        "title": "Competition Coaching",
         "where": "Public and in-house competitions, 2025 to now",
         "body": "Public results: FLL Master Coders Award, NRC finalist, HCIC silver, Coding Olympics Category A top 20. I've also coached teams at Global Appathon and Technovation Girls. In in-house competitions, my teams won 1 overall champion, 2 best coding and 1 best teamwork award.",
         "tools": ""
@@ -100,14 +100,16 @@
       }
     },
     "more": "Other MoE workshop: Google Slides and Canva (Greenwood Primary School, 2026).",
-    "enlarge": "Enlarge image"
+    "enlarge": "Enlarge image",
+    "post": "View on LinkedIn",
+    "newTab": "opens in a new tab"
   },
   "experience": {
     "title": "Experience",
     "intro": "Work, education and certifications.",
     "jobs": {
       "empire": {
-        "role": "Coding and robotics trainer",
+        "role": "Coding and Robotics Trainer",
         "org": "Empire AI, Singapore",
         "period": "July 2025 to now",
         "points": [
@@ -115,7 +117,7 @@
         ]
       },
       "gummy": {
-        "role": "Robotics trainer",
+        "role": "Robotics Trainer",
         "org": "Gummy Code, Kulai, Johor",
         "period": "June 2023 to June 2025",
         "points": [

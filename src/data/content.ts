@@ -89,3 +89,10 @@ export const workItems = [
 ] as const
 
 export type WorkItem = (typeof workItems)[number]
+
+// Public LinkedIn posts about a project. Items without a link show nothing.
+export const workPosts: Partial<Record<WorkItem, string>> = {
+  ooy: 'https://www.linkedin.com/feed/update/urn:li:activity:7522859113404571648/',
+  aizaikia: 'https://www.linkedin.com/feed/update/urn:li:activity:7501906725957095424/',
+  parents: 'https://www.linkedin.com/feed/update/urn:li:activity:7493096207469162496/',
+}
