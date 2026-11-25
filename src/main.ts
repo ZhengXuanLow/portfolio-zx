@@ -7,12 +7,10 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import en from './locales/en.json'
 import zh from './locales/zh.json'
 
-// Start in Chinese for Chinese-language browsers, English otherwise.
-const prefersZh = navigator.languages?.some((l) => l.toLowerCase().startsWith('zh'))
-
+// Always open in English; visitors can switch to Chinese from the header.
 const i18n = createI18n({
   legacy: false,
-  locale: prefersZh ? 'zh' : 'en',
+  locale: 'en',
   fallbackLocale: 'en',
   messages: { en, zh },
 })
